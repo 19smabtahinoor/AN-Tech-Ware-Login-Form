@@ -1,0 +1,295 @@
+
+*{
+    padding:0px;
+    margin:0px;
+
+}
+body {
+    height: 926px;
+    overflow: hidden;
+}
+.loginPage{
+    width:100%;
+    height:1080px;
+    position:relative; /*height of the body*/
+    top:0px;
+    left:0px;
+}
+
+/*half bg color styling*/
+.halfBgColor{
+    width:30%;
+    height:100%;
+    background:#3B66FF;
+}
+.mainLoginForm {
+    position: relative;
+    top: -86%;
+    left: 24%;
+    width: 50%;
+    background: #ffffff;
+    height: 62%;
+    box-shadow: 0px 14px 26px 0px #00000052;
+}
+.mainLoginForm video{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+}
+
+.videoPart {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    float:left;
+}
+.logo {
+    position: absolute;
+    width: 275px;
+    height: 102px;
+    top: 3%;
+    left: 35px;
+}
+
+.logo img {
+    width: 72%;
+    height: 60%;
+    margin: 13px;
+}
+
+
+.overlayOfVideo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-image:  linear-gradient(to right,#3b66ff6b,#3b66ffd9);
+}
+
+.playbtn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.playbtn img {
+    width: 50px;
+}
+
+/* LOgin Form Part*/
+
+.loginFormPart {
+    width: 50%;
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 55px;
+}
+
+.loginFormPart a {
+    color: #3b66ff;
+    text-decoration: none;
+    font-family: system-ui;
+    font-size: 12px;
+    float: right;
+}
+
+/*login box*/
+.loginFormBox {
+    float: left;
+    width: 100%;
+    padding-top: 41px;
+}
+
+.loginTitle {
+    padding-bottom: 35px;
+}
+
+.loginTitle h2 {
+    color: #08174e;
+    font-family: system-ui;
+    font-size: 31px;
+}
+
+.loginTitle span {
+    color: #0000007a;
+    font-family: system-ui;
+    font-size: 12px;
+}
+
+.inputBoxesdiv {
+    float: left;
+    width: 100%;
+}
+
+label {
+    display: block;
+    color: #00000085;
+    font-family: system-ui;
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+
+.emailInputbox {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 65px;
+
+}
+
+.emailInputbox input {
+    width: 74%;
+    float: left;
+    height: 37px;
+    padding-left: 41px;
+    border: 1px solid #ddd;
+    outline: none;
+    margin-bottom: 13px;
+}
+
+.emailInputbox i {
+    position: absolute;
+    top: 58%;
+    left: 4%;
+    color: #0000006b;
+}
+
+/*password box*/
+.passwordinputbox{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 65px;
+    
+}
+
+.passwordinputbox input {
+    width: 74%;
+    float: left;
+    height: 37px;
+    padding-left: 41px;
+    border: 1px solid #ddd;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+.passwordinputbox i{
+    position: absolute;
+    top: 76%;
+    left: 4%;
+    color: #0000006b;
+    width:40px;
+    height:40px;
+}
+.eyeicn img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 37px;
+    left: -5px;
+}
+.eyeicn img {
+    cursor:pointer;
+}
+
+/*button*/
+
+.btnbox {
+    width: 100%;
+    float: left;
+    height: 65px;
+}
+
+.btn {
+    padding: 9px 52px;
+    border: none;
+    outline: none;
+    background: #3b66ff;
+    color: white;
+    border-radius: 4px;
+    font-family: system-ui;
+    font-size: 15px;
+    box-shadow:inset 0 0 0 0 white,0px 10px 10px 0px #ddd;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+    cursor:pointer;
+    margin-right: 228px;
+}
+.btn:hover{
+    box-shadow:inset 200px 0 0 0 white,0px 10px 10px 0px rgb(197, 187, 187);
+    color:#3b66ff;
+}
+
+.eyeicn {
+    width: 50px;
+    height: 50px;
+    float: right;
+    position: absolute;
+    top: 13px;
+    right: 31px;
+}
+.eyeicn i{
+    cursor:pointer;
+    transition:0.1s;
+    -webkit-transition:0.1s;
+    -moz-transition:0.1s;
+    -ms-transition:0.1s;
+    -o-transition:0.1s;
+}
+.eyeicn i:hover{
+    color:#3b66ff;
+}
+
+.rigiatertext {
+    width: 87%;
+    float: left;
+    height: 56px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rigiatertext span {float: left;color: #999999;font-family: system-ui;font-size: 12px;}
+
+.rigiatertext a {
+    float: left;
+    padding-left: 4px;
+}
+
+.footerPartOfLoginbox {
+    width: 94%;
+    float: left;
+    padding-top: 34px;
+}
+
+.footerPartOfLoginbox h3 {
+    color: #010308;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: system-ui;
+    padding-bottom: 3px;
+}
+
+.footerPartOfLoginbox p {
+    color: #999999;
+    font-family: system-ui;
+    font-size: 10px;
+    padding-bottom: 15px;
+}
+
+.footerPartOfLoginbox a {
+    float: left;
+    font-size: 10px;
+}
